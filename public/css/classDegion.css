@@ -1,0 +1,147 @@
+.log_ing{
+    display: none;
+}
+.log_c{
+    position: relative;
+}
+.log_warring{
+    position: absolute;
+    display: none;
+    text-align: center;
+    background-color: rgba(250, 140, 76, 0.6);
+    left:50%;
+    margin-left: -150px;
+    height: 30px;
+    line-height: 30px;
+    top:70px;
+    width: 300px;
+
+}
+.l_user{
+    position: static;
+    box-sizing: content-box;
+}
+.l_pwd{
+    position: static;
+    box-sizing: content-box;
+}
+.myRegister{
+    width: 550px;
+    text-align: start;
+}
+.checkMsg{
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    width: 135px;
+    right: 0px;
+}
+.checkMsg .account{
+    display: inline-block;
+    position: absolute;
+    line-height: 20px;
+    top: 85px;
+    height: 20px;
+    width: 135px;
+}
+.checkMsg .pw{
+    position: absolute;
+    display: inline-block;
+    line-height: 20px;
+    top: 137px;
+    height: 20px;
+    width: 135px;
+}
+.checkMsg .pwConfirm{
+    position: absolute;
+    display: inline-block;
+    line-height: 20px;
+    top: 186px;
+    height: 20px;
+    width: 135px;
+}
+.checkMsg .checkCode{
+    position: absolute;
+    display: inline-block;
+    line-height: 20px;
+    top: 234px;
+    height: 20px;
+    width: 135px;
+}
+.judge{
+    display: none;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    margin-left: 10px;
+    color: #fff;
+}
+.right{
+    background-color: rgb(17, 216, 17);
+    display: inline-block;
+}
+.wrong{
+    background-color: red;
+    display: inline-block;
+}
+.judgeContent{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+    color: red;
+}
+.identifyCode{
+    position: absolute;
+    display: inline-block;
+    top: 227px;
+    height: 38px;
+    width: 100px;
+    right: 137px;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546664553765&di=8fc3c7505e49837cb79a9f3d991eabc7&imgtype=0&src=http%3A%2F%2Fs1.sinaimg.cn%2Fmw690%2F0061inM7gy6QqS3d9Cw00%26690);
+    background-size: (100% 100%);
+}
+.btnDisabled{
+
+    background: none;
+    background-color: #aaa;
+    cursor: default;
+}
+.top{
+    position: relative;
+}
+.inputContent{
+    position: absolute;
+    width: 430px;
+    left: 341px;
+    top: 90px;
+    background-color: #fff;
+    z-index: 999;
+    border:1px solid #aaa;
+}
+.contentModel{
+    display: inline-block;
+    padding: 4px 8px;
+    width: 412px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.contentModel:hover{
+    background: #aaa;
+}
+.resultNone{
+    font-size: 32px;
+    color: #aaa;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    line-height: 500px;
+}

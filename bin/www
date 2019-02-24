@@ -1,0 +1,8 @@
+#!/user/bin/env node
+
+var app = require("../app.js");
+var config = require("../config/config.js");
+
+app.listen(config.port,function(){
+    console.log("app server start over , port :" + config.port);
+})
